@@ -7,8 +7,6 @@
 		"putyourlightson/craft-blitz": "4.2.3",
 		"putyourlightson/craft-sherlock": "4.2.0",
 		"shornuk/craft-plausible": "2.0.0",
-		"szenario/craft-spacecontrol": "^0.0.1",
-		"szenario/craft-submariner": "^0.0.2",
 		"vlucas/phpdotenv": "^5.4.0"
 	},
 	"require-dev": {
@@ -33,16 +31,6 @@
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
-	"repositories": [
-		{
-			"type": "path",
-			"url": "../craft-plugins/craft-submariner"
-		},
-		{
-			"type": "path",
-			"url": "../craft-plugins/craft-spacecontrol"
-		}
-	],
 	"scripts": {
 		"craft-update": [
 			"@pre-craft-update",

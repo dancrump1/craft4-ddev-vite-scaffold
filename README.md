@@ -1,24 +1,21 @@
 # Craft CMS Dev Environment
-
-Combine the power of Craft CMS and Vite.js with zero configuration setup and incredible fast paced development 😎.
-
-
-
-## Quickstart
-
-1.  ``make install``
-2.  ``make dev``
-3.  open https://craft4-ddev-vite-blueprint.ddev.site
-
+Scaffolding for a CraftCMS 4 project powered by Vite and setup with DDEV
 
 ## Requirements
-
 -   Docker, https://www.docker.com
 -   DDEV, https://ddev.com
 
+## Steps
+``git clone``
+``ddev config``
+``make install``
+``Delete the composer lock file``
+``composer install``
+``make install``
+``ddev start``
+``make dev``
+
+
 
 ## Credits
-The team behind the magic ✨ 🪄 🦄
-
--  https://github.com/thomasbendl
--  https://github.com/smonist
+Forked from https://github.com/thomasbendl/craft4-ddev-vite-blueprint
